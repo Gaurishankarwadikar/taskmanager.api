@@ -11,9 +11,9 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   # tag: '$(Build.BuildId)'
-  dockerRegistryServiceConnection: '087959ac-248a-4ad4-8053-feb0898e78ed'
+  dockerRegistryServiceConnection: '3394f8c0-6882-406b-a613-2db46c2b450b'
   imageRepository: 'taskmanagerapi'
-  containerRegistry: 'learnsmartcodingcr.azurecr.io'
+  containerRegistry: 'wdhwoijdo.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
